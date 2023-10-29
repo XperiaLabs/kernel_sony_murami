@@ -3,6 +3,7 @@
 
 #include "blair-qrd.dtsi"
 #include "holi-qrd-pm7250b.dtsi"
+#include "blair-murray-common.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. Blair QRD";

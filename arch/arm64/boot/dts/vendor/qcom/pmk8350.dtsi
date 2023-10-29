@@ -84,6 +84,22 @@
 				qcom,pre-scaling = <1 1>;
 			};
 
+			pmk8350_batt_id {
+				reg = <PMK8350_ADC7_AMUX_THM2_100K_PU>;
+				label = "pmk8350_batt_id";
+				//qcom,ratiometric;
+				qcom,hw-settle-time = <200>;
+				qcom,pre-scaling = <1 1>;
+			};
+
+			pmk8350_usb_conn_therm {
+				reg = <PMK8350_ADC7_AMUX_THM4_100K_PU>;
+				label = "pmk8350_usb_conn_therm";
+				qcom,ratiometric;
+				qcom,hw-settle-time = <200>;
+				qcom,pre-scaling = <1 1>;
+			};
+
 			/* PM8350 Channel nodes */
 			pm8350_ref_gnd {
 				reg = <PM8350_ADC7_REF_GND>;
